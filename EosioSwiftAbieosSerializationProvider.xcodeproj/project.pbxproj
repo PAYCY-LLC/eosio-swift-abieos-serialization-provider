@@ -19,7 +19,7 @@
 		B467E04D2228785800C8A67D /* transaction.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = B467E0112228785700C8A67D /* transaction.abi.json */; };
 		B467E04E2228785800C8A67D /* fuzzer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B467E0122228785700C8A67D /* fuzzer.hpp */; };
 		B467E04F2228785800C8A67D /* eosio.assert.abi.json in Resources */ = {isa = PBXBuildFile; fileRef = B467E0132228785700C8A67D /* eosio.assert.abi.json */; };
-		B467E0502228785800C8A67D /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = B467E0152228785700C8A67D /* fwd.h */; };
+		B467E0502228785800C8A67D /* rapid_fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = B467E0152228785700C8A67D /* rapid_fwd.h */; };
 		B467E0512228785800C8A67D /* memorystream.h in Headers */ = {isa = PBXBuildFile; fileRef = B467E0162228785700C8A67D /* memorystream.h */; };
 		B467E0522228785800C8A67D /* reader.h in Headers */ = {isa = PBXBuildFile; fileRef = B467E0172228785700C8A67D /* reader.h */; };
 		B467E0532228785800C8A67D /* prettywriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B467E0182228785700C8A67D /* prettywriter.h */; };
@@ -103,7 +103,7 @@
 		B467E0112228785700C8A67D /* transaction.abi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transaction.abi.json; sourceTree = "<group>"; };
 		B467E0122228785700C8A67D /* fuzzer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fuzzer.hpp; sourceTree = "<group>"; };
 		B467E0132228785700C8A67D /* eosio.assert.abi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = eosio.assert.abi.json; sourceTree = "<group>"; };
-		B467E0152228785700C8A67D /* fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fwd.h; sourceTree = "<group>"; };
+		B467E0152228785700C8A67D /* rapid_fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rapid_fwd.h; sourceTree = "<group>"; };
 		B467E0162228785700C8A67D /* memorystream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorystream.h; sourceTree = "<group>"; };
 		B467E0172228785700C8A67D /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
 		B467E0182228785700C8A67D /* prettywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prettywriter.h; sourceTree = "<group>"; };
@@ -233,7 +233,7 @@
 		B467E0142228785700C8A67D /* rapidjson */ = {
 			isa = PBXGroup;
 			children = (
-				B467E0152228785700C8A67D /* fwd.h */,
+				B467E0152228785700C8A67D /* rapid_fwd.h */,
 				B467E0162228785700C8A67D /* memorystream.h */,
 				B467E0172228785700C8A67D /* reader.h */,
 				B467E0182228785700C8A67D /* prettywriter.h */,
@@ -338,7 +338,7 @@
 				B467E0512228785800C8A67D /* memorystream.h in Headers */,
 				B467E0772228785800C8A67D /* chrono_io.h in Headers */,
 				B467E0552228785800C8A67D /* encodedstream.h in Headers */,
-				B467E0502228785800C8A67D /* fwd.h in Headers */,
+				B467E0502228785800C8A67D /* rapid_fwd.h in Headers */,
 				B467E06A2228785800C8A67D /* rapidjson.h in Headers */,
 				B467E06C2228785800C8A67D /* allocators.h in Headers */,
 				B467E0652228785800C8A67D /* pow10.h in Headers */,
